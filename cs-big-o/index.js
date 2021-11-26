@@ -13,10 +13,10 @@ function printNumbers(numbers) {
   
 // Q: Given an array of numbers, what is the time complexity of this function?
 // ANSWER:
-
+let answer = "The time complexity of this function is linear, O(n)."
 // Q: What is the space complexity?
 // ANSWER:
-
+let answer = "The space complexity of this is linear, O(n)."
 
 
 
@@ -39,15 +39,15 @@ function findFourth(numbers) {
 
 // Q: What is the time complexity of of this solution?
 // ANSWER:
-
+let answer = "The time complexity of this solution is constant time, O(1)."
 // Q: Given an array of numbers, what is the space complexity of this function?
 // ANSWER:
-
+let answer = "The space complexity of this solution is linear space, O(n)."
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
 // ANSWER:
 
-
+let answer = "No, this answer is linear, O(n), but this code used prevents it from looping over 4 run throughs."
 // 3) -------------------------------------------------------
 function printA() {
     for (let i = 0; i < 5; i++) {
@@ -57,8 +57,12 @@ function printA() {
 // Q: What is the time complexity of this function?
 // ANSWER:
 
+let answer = "The time complexity of this function is constant time, O(1)."
+
 // Q: What is the space complexity of this function?
 // ANSWER:
+
+let answer = "The space complexity of this function is constant time, O(1) space."
 
 // 4) -------------------------------------------------------
 function printB(number) {
@@ -69,8 +73,12 @@ function printB(number) {
 // Q: What is the time complexity of this function?
 // ANSWER:
 
+let answer = "The time complexity for this function is linear, O(n) because the loop will stop once it prints the number. It will stop recurring."
+
 // Q: What is the space complexity of this function?
 // ANSWER:
+
+let answer = "The space complexity of this function is linear, O(n)."
 
 
 
@@ -85,10 +93,12 @@ function printC(num, arr) {
 // Q: What is the time complexity of this function?
 // ANSWER:
 
+let answer = "The time complexity of this function is quadratic time, O(n^2)."
+
 // Q: What is the space complexity of this function?
 // ANSWER:
 
-
+let answer = "The space complexity of this function is quadratic, O(n^2)."
 // 6) -------------------------------------------------------
 function nested(numbers) {
     for (let i = 0; i < numbers.length; i++) {
@@ -99,9 +109,12 @@ function nested(numbers) {
   }
 // Q: What is the time complexity of this function?
 // ANSWER:
+let answer = "This time complexity is quadratic runtimes, O(n^2)."
 
 // Q: What is the space complexity of this function?
 // ANSWER:
+
+let answer = "The space complexity of this function is quadratic space, )(n^2)."
 
 
 
@@ -113,10 +126,12 @@ let newNumbersA = numbers.filter((num) => {
 })
 // Q: What is the time complexity of the filter higher-order function?
 // ANSWER:
+let answer = "The time complexity of this function of the filter high order is linear."
 
 // Q: What is the space complexity of the filter higher-order function?
 // ANSWER:
 
+let answer = "The space complexity of this filter higher-order function is linear O(n)."
 
 // 8) -------------------------------------------------------
 // remember numbers (in #7) could be reassigned, added to, etc.
@@ -125,11 +140,12 @@ let newNumbersB = numbers.map((num) => {
 })
 // Q: What is the time complexity of the map higher-order function?
 // ANSWER:
+let answer = "The time complexity of the map higher-order function is linear, O(n), runtime."
 
 // Q: What is the space complexity of the map higher-order function?
 // ANSWER:
 
-
+let answer = "The space complexity of the map higher-order function is linear, O(n)."
 
 
 
@@ -143,7 +159,7 @@ function removeNum() {
 }
 // Q: What is the time complexity of the function?
 // ANSWER:
-
+let answer = "linear, O(n)"
 
 // 10) -------------------------------------------------------
 function insertNum() {
@@ -152,6 +168,7 @@ function insertNum() {
 // Q: What is the time complexity of the function?
 // ANSWER:
 
+let answer = "linear, O(n)"
 
 // 11) -------------------------------------------------------
 function pushNum() {
@@ -160,6 +177,7 @@ function pushNum() {
 // Q: What is the time complexity of the function?
 // ANSWER:
 
+let answer = "constant time, O(1)"
 
 // 12) -------------------------------------------------------
 // Given an array of names....
@@ -172,7 +190,7 @@ function printFirstTwoNames(array) {
 // ANSWER:
 
 
-
+let answer = "constant time, O(1)"
 
 
 
@@ -196,6 +214,7 @@ function arrInception(parentArr) {
   // Q: What is the space complexity of this function?
   // ANSWER:
   
+let answer = "linear space, O(n)"
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
 
@@ -213,6 +232,8 @@ function getNumbersSquared(numbers) {
 
 // Q: What is the space complexity of this function?
 // ANSWER:
+
+let answer = "linear, O(n)"
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
@@ -283,11 +304,17 @@ function countLettersRoundTwo(str) {
 // Q: Do these functions have the same space complexity?
 // ANSWER:
 
+let answer = "yes"
+
 
 // Q: What is the space complexity of each? 
 // ANSWER - countLetters:
 // ANSWER - countLettersRoundTwo:
 
+let answerCountLetters = "linear, O(n)"
+let answerCountLettersRoundTwo = "linear, O(n)"
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
 // ANSWER: 
+
+let answer = "Each function is dependent of the size of their own string."
